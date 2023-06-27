@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">news</string>
+    <string name="saved_name_in_menu">Saved Articles</string>
+    <string name="settings_name_in_menu">Settings</string>
+    <string name="content_description">Article Image</string>
+    <string name="api_key">REPLACE WITH YOU API KEY</string>
+</resources>
+
+<!--
+    Generate your own API key:
+    1. Sign up to NewsData.io (https://newsdata.io/register) for free.
+    2. On the website, go to Dashboard, then the API key tab.
+    3. Copy and paste your API key into this file on line 6.
+-->

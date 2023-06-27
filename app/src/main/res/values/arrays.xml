@@ -1,0 +1,12 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="countries">
+        <item>United Kingdom</item>
+        <item>China</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Russia</item>
+        <item>Spain</item>
+        <item>United States</item>
+    </string-array>
+</resources>

@@ -1,0 +1,30 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="News Feed">
+    <DropDownPreference
+        app:key="country"
+        app:title="Country"
+        app:entries="@array/countries"
+        app:entryValues="@array/countries"/>
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Alerts">
+            <SwitchPreferenceCompat
+                app:key="notifications"
+                app:title="Notifications">
+            </SwitchPreferenceCompat>
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Storage">
+        <DropDownPreference
+            app:key="clear"
+            app:title="Delete all saved articles">
+        </DropDownPreference>
+    </PreferenceCategory>
+    <PreferenceCategory app:title="About">
+
+        <Preference
+            app:key="version"
+            app:title="Build version"
+            app:summary="1.0.0">
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
